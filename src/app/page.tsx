@@ -16,8 +16,8 @@ export default function Home() {
 			<Link href="https://lotodata.tk" className={styles.project}>
 				<h3>LotoData</h3>
 			</Link>
-			<Link href="https://onepiecefamily.gustavoaureliano.com.br" className={styles.project}>
-				<h3></h3>
+			<Link href="https://github.com/gustavoaureliano/iPET" className={styles.project}>
+				<h3>iPET</h3>
 			</Link>
 		</section>
     </main>
