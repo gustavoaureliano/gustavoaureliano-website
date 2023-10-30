@@ -10,6 +10,9 @@ export default function Home() {
 			<Link href="https://onepiecefamily.gustavoaureliano.com.br" className={styles.project}>
 				<h3>OnePieceFamily</h3>
 			</Link>
+			<Link href="https://www.worldcubeassociation.org/persons/2018AURE01" className={styles.project}>
+				<h3>World Cube Association</h3>
+			</Link>
 			<Link href="/lampadas" className={styles.project}>
 				<h3>Lâmpadas</h3>
 			</Link>
