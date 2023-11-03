@@ -1,6 +1,5 @@
 import fs from "fs";
 import matter from "gray-matter";
-import { PostMetadata } from "./PostMetadata";
 
 interface PostMetadata {
 	title: string;
