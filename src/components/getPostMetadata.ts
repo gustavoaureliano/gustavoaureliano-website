@@ -17,7 +17,7 @@ export default function getPostMetadata(): PostMetadata[] {
 		const matterResult = matter(fileContents);
 		return {
 			title: matterResult.data.title,
-			substitle: matterResult.data.subtitle,
+			subtitle: matterResult.data.subtitle,
 			date: matterResult.data.date,
 			slug: filename.replace(".md", "")
 		};
