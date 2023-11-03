@@ -1,12 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-
-interface PostMetadata {
-	title: string;
-	subtitle: string;
-	date: string;
-	slug: string;
-}
+import { PostMetadata } from "./PostMetadata";
 
 export default function getPostMetadata(): PostMetadata[] {
 	const folder = "src/app/posts";
