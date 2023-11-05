@@ -3,6 +3,7 @@ import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
 import getPostMetadata from "@/components/getPostMetadata";
 import { notFound } from "next/navigation";
+import styles from "@/styles/post.module.css"
 
 function getPostContent(slug: string) {
 	const filepath = `src/app/posts/${slug}.md`;
@@ -22,7 +23,7 @@ export default function Post( {params}: {params: {slug: string}} ) {
 	const slug = params.slug;
 	const post = getPostContent(slug);
 	return (
-		<main>
+		<main className={styles.post}>
 			<Markdown>{post.content}</Markdown>
 		</main>
 	);

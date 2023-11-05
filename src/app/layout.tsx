@@ -1,12 +1,16 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+	weight: '400',
+	subsets: ['latin'],
+	display: 'swap'
+})
 
 export const metadata: Metadata = {
   title: 'Gustavo Rocha Aureliano',
-  description: 'Este é um site sobre meus projetos',
+  description: 'Este é um site sobre mim e qualquer coisa que eu quiser postar',
 }
 
 export default function RootLayout({
@@ -15,8 +19,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
-    </html>
+	<html lang="pt-br">
+		<body className={roboto.className}>
+			{children}
+		</body>
+	</html>
   )
 }

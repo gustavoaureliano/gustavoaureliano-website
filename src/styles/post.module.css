@@ -1,0 +1,9 @@
+.post h1 {
+	margin: 25px;
+	text-align: center;
+}
+
+.post p {
+	line-height: 1.6;
+	margin: 25px 10px;
+}
