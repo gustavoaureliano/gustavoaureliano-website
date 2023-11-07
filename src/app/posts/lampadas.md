@@ -15,3 +15,7 @@ Por agora posso dizer que o projeto é dividido em duas partes, o controle do me
 Quando vi que o abajur funcionava bem eu parti para fazer o controle da luz do meu quarto, a ideia era substituir o interruptor e fazer um interruptor inteligente. Nesse caso eu utilizei um ESP01S e desenvolvi uma placa de circuito impresso (PCB) para manter o circuito compacto e caber no lugar do interruptor original.
 
 A partir desse ponto passei a desenvolver os dois em conjunto e adicionei funcionalidades de upload do codigo via OTA (Over-the-air) e controle automatizado da rede wifi, sem a necessidade de carregar o código novamente só para mudar o wifi.
+
+### O Projeto inicial
+
+![Esquema elétrico do projeto inicial](/images/esquema-arduino.png)
