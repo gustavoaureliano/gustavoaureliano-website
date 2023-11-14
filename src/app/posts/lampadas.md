@@ -18,4 +18,4 @@ A partir desse ponto passei a desenvolver os dois em conjunto e adicionei funcio
 
 ### O Projeto inicial
 
-![Esquema elétrico do projeto inicial](/images/esquema-arduino.png)
+![Esquema elétrico do projeto inicial](/images/esquema-arduino.webp)

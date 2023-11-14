@@ -11,15 +11,15 @@ html {
 }
 
 body {
-	font-size: 1.6em;
+	font-size: 2.0em;
 	background: white;
 	color: black;
 }
 
 main {
 	width: 100%;
-	max-width: 640px;
+	max-width: 120rem;
 	height: auto;
-	margin: 25px auto;
-	padding: 25px;
+	margin: 1.0em auto;
+	padding: 0.8em;
 }
